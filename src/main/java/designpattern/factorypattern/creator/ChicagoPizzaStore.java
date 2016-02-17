@@ -2,6 +2,7 @@ package designpattern.factorypattern.creator;
 
 import designpattern.factorypattern.product.ChicagoStyleCheesePizza;
 import designpattern.factorypattern.product.ChicagoStyleClamPizza;
+import designpattern.factorypattern.product.ChicagoStylePepperoniPizza;
 import designpattern.factorypattern.product.ChicagoStyleVeggiePizza;
 import designpattern.factorypattern.product.Pizza;
 
