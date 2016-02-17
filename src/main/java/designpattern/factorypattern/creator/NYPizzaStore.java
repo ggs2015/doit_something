@@ -1,6 +1,9 @@
 package designpattern.factorypattern.creator;
 
 import designpattern.factorypattern.product.NYStyleCheesePizza;
+import designpattern.factorypattern.product.NYStyleClamPizza;
+import designpattern.factorypattern.product.NYStylePepperoniPizza;
+import designpattern.factorypattern.product.NYStyleVeggiePizza;
 import designpattern.factorypattern.product.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
@@ -18,7 +21,6 @@ public class NYPizzaStore extends PizzaStore {
 		}else{
 			return null;
 		}
-		
 	}
 
 }
