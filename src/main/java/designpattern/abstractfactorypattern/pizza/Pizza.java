@@ -9,6 +9,7 @@ import designpattern.abstractfactorypattern.ingredient.productinterface.Veggies;
 
 public abstract class Pizza {
 
+	//对接口编程
 	protected String name;
 	protected Dough dough;
 	protected Sauce sauce;
