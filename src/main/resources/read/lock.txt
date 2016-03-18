@@ -1,0 +1,17 @@
+
+public interface Lock {
+    void lock();
+    void lockInterruptibly() throws InterruptedException;
+    boolean tryLock();
+    boolean tryLock(long time, TimeUnit unit) throws InterruptedException;
+    void unlock();
+    Condition newCondition();
+}
+//标准使用形式
+Lock lock = new ReentrantLock();
+...
+lock.lock();
+try{
+    ...
+} finally {
+    lock.unlock();
